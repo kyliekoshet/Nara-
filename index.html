@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Join Our Waiting List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpeg" alt="Company Logo" class="logo">
+
+        <p>Nara+ is an AI-powered platform revolutionizing early-phase clinical trials by centralizing communication and ensuring regulatory compliance across global sites. We help clinical trial teams stay synchronized, make real-time decisions, and adhere to safety standards, getting life-saving treatments to market faster.</p>
+        <h3>Join our waiting list to get early access and stay updated!</h3>
+
+        <form id="signupForm" action="https://formspree.io/f/mbljygav" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Sign Up</button>
+            <p id="successMessage" class="hidden">Thank you for signing up!</p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
